@@ -1,6 +1,7 @@
 
 import React from 'react';
 import Card from './ui/Card';
+import auroraImage from '../assets/aurora.jpg';
 
 const AboutMe: React.FC = () => {
   return (
@@ -15,12 +16,7 @@ const AboutMe: React.FC = () => {
           <div className="md:flex md:items-center md:gap-8 p-4">
             <div className="md:w-1/3 flex-shrink-0 mb-8 md:mb-0 flex justify-center items-center">
                 <img 
-                    src=import myImage from './assets/aurora.jpg';
-
-export default function App() {
-  return <img src={myImage} alt="Aurora" />;
-}
-
+                    src={auroraImage}
                     alt="Aurora, a Guia Espiritual"
                     className="w-48 h-48 sm:w-64 sm:h-64 object-cover rounded-2xl border-4 border-purple-500/40 shadow-xl shadow-purple-500/20"
                 />
