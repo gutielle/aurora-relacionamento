@@ -26,8 +26,14 @@ const Button: React.FC<ButtonProps> = ({
   const combinedClassName = `${baseStyles} ${variantStyles[variant]} ${className}`;
 
   if (as === 'a') {
+    const isExternal = href && (href.startsWith('http') || href.startsWith('//'));
     return (
-      <a href={href} className={combinedClassName} target="_blank" rel="noopener noreferrer">
+      <a 
+        href={href} 
+        className={combinedClassName} 
+        target={isExternal ? '_blank' : undefined}
+        rel={isExternal ? 'noopener noreferrer' : undefined}
+      >
         {children}
       </a>
     );
