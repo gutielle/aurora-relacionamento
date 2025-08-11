@@ -17,7 +17,7 @@ const AboutMe: React.FC = () => {
                 <img 
                     src="https://via.placeholder.com/256/9333ea/ffffff?text=Aurora"
                     alt="Aurora, a Guia Espiritual"
-                    className="w-64 h-64 object-cover rounded-2xl border-4 border-purple-500/40 shadow-xl shadow-purple-500/20"
+                    className="w-48 h-48 sm:w-64 sm:h-64 object-cover rounded-2xl border-4 border-purple-500/40 shadow-xl shadow-purple-500/20"
                 />
             </div>
             <div className="md:w-2/3">
