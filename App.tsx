@@ -1,5 +1,6 @@
 
 import React from 'react';
+import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
 import AboutMe from './components/AboutMe';
@@ -16,7 +17,8 @@ const App: React.FC = () => {
     <div className="min-h-screen bg-gradient-to-br from-indigo-950 via-slate-900 to-purple-950">
       <div className="absolute inset-0 z-0 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')] opacity-20"></div>
       <div className="relative z-10">
-        <main>
+        <Header />
+        <main className="pt-20">
           <Hero />
           <About />
           <AboutMe />
