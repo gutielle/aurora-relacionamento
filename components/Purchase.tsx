@@ -13,7 +13,7 @@ const Purchase: React.FC<PurchaseProps> = ({ productUrl }) => {
       <div className="container mx-auto px-4">
         <Card className="max-w-3xl mx-auto text-center overflow-hidden">
           <div className="p-8">
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-2">Pronto para Restaurar Seu Relacionamento?</h2>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4 uppercase">Pronto para Restaurar Seu Relacionamento</h2>
             <p className="text-lg text-slate-300 mb-6">Dê o primeiro passo para curar seu vínculo e reacender a chama. Invista no seu futuro juntos.</p>
             
             <div className="my-6">
