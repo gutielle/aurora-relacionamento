@@ -17,8 +17,8 @@ const Purchase: React.FC<PurchaseProps> = ({ productUrl }) => {
             <p className="text-lg text-slate-300 mb-6">Dê o primeiro passo para curar seu vínculo e reacender a chama. Invista no seu futuro juntos.</p>
             
             <div className="my-6">
-                <p className="text-slate-400 text-xl sm:text-2xl line-through">$96.44</p>
-                <p className="text-4xl sm:text-5xl font-bold text-amber-300" style={{ textShadow: '0 0 10px rgba(252, 211, 77, 0.4)' }}>$24.22</p>
+                <p className="text-slate-400 text-xl sm:text-2xl line-through">R$96,44</p>
+                <p className="text-4xl sm:text-5xl font-bold text-amber-300" style={{ textShadow: '0 0 10px rgba(252, 211, 77, 0.4)' }}>R$24,22</p>
                 <p className="text-purple-300 mt-2">Oferta por Tempo Limitado</p>
             </div>
 
